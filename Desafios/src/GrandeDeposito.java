@@ -11,7 +11,7 @@ public class GrandeDeposito {
         if (valor > 0) {
             //TODO: Imprimir a mensagem de sucesso, formatando o saldo atual (vide Exemplos).
             System.out.println("Deposito realizado com sucesso!\r\n" + "Saldo atual: R$ " + df.format(valor));            
-        } else if (valor == 0) {
+        } else if (valor < 0) {
             //TODO: Imprimir a mensagem de valor inválido.
             System.out.println("Valor invalido! Digite um valor maior que zero.");
         } else {
