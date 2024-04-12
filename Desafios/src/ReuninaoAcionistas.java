@@ -5,7 +5,7 @@ import java.text.ParseException;
 import java.util.List;
 import java.util.Scanner;
 
-public class ReinaoAcionistas {
+public class ReuninaoAcionistas {
 
   public static void main(String[] args) throws ParseException {
     // Lê os dados de Entrada conforme descrito neste Desafio.
